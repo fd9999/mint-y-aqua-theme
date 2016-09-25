@@ -13,7 +13,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="checkbox-checked-focused.svg"
    inkscape:export-filename="/home/steffen/.local/share/themes/neu2/gtk-3.0/assets/dark/checkbox-unchecked.png"
    inkscape:export-xdpi="90"
@@ -39,6 +39,21 @@
          offset="1"
          id="stop3776-1" />
     </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Color Shift"
+       id="filter3357">
+      <feColorMatrix
+         type="hueRotate"
+         values="40"
+         result="color1"
+         id="feColorMatrix3359" />
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         result="color2"
+         id="feColorMatrix3361" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -93,7 +108,7 @@
      transform="translate(0,-1036.3622)">
     <g
        transform="translate(-36,1036)"
-       style="display:inline;opacity:1"
+       style="display:inline;opacity:1;filter:url(#filter3357)"
        id="checkbox-checked-dark"
        inkscape:label="#g10758">
       <g

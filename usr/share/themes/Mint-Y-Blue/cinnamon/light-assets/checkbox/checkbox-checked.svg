@@ -13,7 +13,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="checkbox-checked.svg"
    inkscape:export-filename="/home/steffen/.local/share/themes/Vertex-git/gtk-3.0/assets/dark/checkbox-checked.png"
    inkscape:export-xdpi="90"
@@ -61,6 +61,21 @@
          offset="1"
          id="stop3973-0-5-3" />
     </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Color Shift"
+       id="filter3364">
+      <feColorMatrix
+         type="hueRotate"
+         values="40"
+         result="color1"
+         id="feColorMatrix3366" />
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         result="color2"
+         id="feColorMatrix3368" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -70,7 +85,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="16.000001"
-     inkscape:cx="8.5280933"
+     inkscape:cx="8.6530933"
      inkscape:cy="10.041908"
      inkscape:document-units="px"
      inkscape:current-layer="checkbox-checked-dark"
@@ -80,11 +95,11 @@
      inkscape:guide-bbox="true"
      inkscape:showpageshadow="false"
      showborder="true"
-     inkscape:window-width="929"
-     inkscape:window-height="614"
-     inkscape:window-x="2655"
-     inkscape:window-y="220"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -120,7 +135,7 @@
        transform="translate(16.837126,14.010408)">
       <g
          transform="translate(-52.837126,1021.9896)"
-         style="display:inline;opacity:1"
+         style="display:inline;opacity:1;filter:url(#filter3364)"
          id="checkbox-checked"
          inkscape:label="#g10758">
         <g
