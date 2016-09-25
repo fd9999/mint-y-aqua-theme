@@ -15,7 +15,7 @@
    height="4"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="window-list-active-top.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -30,7 +30,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="19.769528"
-     inkscape:cx="-0.83031425"
+     inkscape:cx="-0.72914846"
      inkscape:cy="3.0971298"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -38,8 +38,8 @@
      inkscape:document-units="px"
      inkscape:showpageshadow="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      width="400px"
      height="300px"
@@ -74,7 +74,23 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3" />
+     id="defs3">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Color Shift"
+       id="filter3335">
+      <feColorMatrix
+         type="hueRotate"
+         values="40"
+         result="color1"
+         id="feColorMatrix3337" />
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         result="color2"
+         id="feColorMatrix3339" />
+    </filter>
+  </defs>
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -91,7 +107,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -132,7 +148,7 @@
      id="layer1"
      transform="translate(0,-296)">
     <rect
-       style="opacity:1;fill:#8fa876;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:#8fa876;fill-opacity:1;stroke:none;filter:url(#filter3335)"
        id="rect4270-9"
        width="24"
        height="2"

@@ -15,7 +15,7 @@
    height="4"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="window-list-active-bottom.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -39,7 +39,7 @@
      inkscape:showpageshadow="true"
      inkscape:window-width="1142"
      inkscape:window-height="566"
-     inkscape:window-x="2561"
+     inkscape:window-x="778"
      inkscape:window-y="82"
      width="400px"
      height="300px"
@@ -74,7 +74,23 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3" />
+     id="defs3">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Color Shift"
+       id="filter3335">
+      <feColorMatrix
+         type="hueRotate"
+         values="40"
+         result="color1"
+         id="feColorMatrix3337" />
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         result="color2"
+         id="feColorMatrix3339" />
+    </filter>
+  </defs>
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -132,7 +148,7 @@
      id="layer1"
      transform="translate(0,-296)">
     <rect
-       style="opacity:1;fill:#8fa876;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:#8fa876;fill-opacity:1;stroke:none;filter:url(#filter3335)"
        id="rect4270-9"
        width="24"
        height="2"
