@@ -63,18 +63,50 @@
     </linearGradient>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Color Shift"
+       inkscape:label="Colorize"
        id="filter3364">
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="0"
+         k2="1"
+         result="composite1"
+         id="feComposite3366" />
       <feColorMatrix
-         type="hueRotate"
-         values="40"
-         result="color1"
-         id="feColorMatrix3366" />
-      <feColorMatrix
-         type="saturate"
+         in="composite1"
          values="1"
-         result="color2"
+         type="saturate"
+         result="colormatrix1"
          id="feColorMatrix3368" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(1,103,255)"
+         result="flood1"
+         id="feFlood3370" />
+      <feBlend
+         in="flood1"
+         in2="colormatrix1"
+         mode="screen"
+         result="blend1"
+         id="feBlend3372" />
+      <feBlend
+         in2="blend1"
+         mode="darken"
+         result="blend2"
+         id="feBlend3374" />
+      <feColorMatrix
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2"
+         id="feColorMatrix3376" />
+      <feComposite
+         in="colormatrix2"
+         in2="SourceGraphic"
+         operator="in"
+         k2="1"
+         result="composite2"
+         id="feComposite3378" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -85,7 +117,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.313709"
-     inkscape:cx="-9.210378"
+     inkscape:cx="-9.3871547"
      inkscape:cy="3.0751402"
      inkscape:document-units="px"
      inkscape:current-layer="checkbox-checked-dark"
@@ -95,11 +127,11 @@
      inkscape:guide-bbox="true"
      inkscape:showpageshadow="false"
      showborder="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1028"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1014"
+     inkscape:window-height="563"
+     inkscape:window-x="230"
+     inkscape:window-y="97"
+     inkscape:window-maximized="0"
      inkscape:snap-global="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="true"

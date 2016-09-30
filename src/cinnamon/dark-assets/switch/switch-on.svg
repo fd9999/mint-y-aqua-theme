@@ -93,18 +93,50 @@
     </linearGradient>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Color Shift"
-       id="filter3364">
+       inkscape:label="Colorize"
+       id="filter4164">
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="0"
+         k2="1"
+         result="composite1"
+         id="feComposite4166" />
       <feColorMatrix
-         type="hueRotate"
-         values="40"
-         result="color1"
-         id="feColorMatrix3366" />
-      <feColorMatrix
+         in="composite1"
+         values="0"
          type="saturate"
+         result="colormatrix1"
+         id="feColorMatrix4168" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(65,141,255)"
+         result="flood1"
+         id="feFlood4170" />
+      <feBlend
+         in="flood1"
+         in2="colormatrix1"
+         mode="multiply"
+         result="blend1"
+         id="feBlend4172" />
+      <feBlend
+         in2="blend1"
+         mode="screen"
+         result="blend2"
+         id="feBlend4174" />
+      <feColorMatrix
+         in="blend2"
          values="1"
-         result="color2"
-         id="feColorMatrix3368" />
+         type="saturate"
+         result="colormatrix2"
+         id="feColorMatrix4176" />
+      <feComposite
+         in="colormatrix2"
+         in2="SourceGraphic"
+         operator="in"
+         k2="1"
+         result="composite2"
+         id="feComposite4178" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -115,8 +147,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.666667"
-     inkscape:cx="13.416511"
-     inkscape:cy="16.13001"
+     inkscape:cx="-12.983489"
+     inkscape:cy="15.787152"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -155,7 +187,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -166,7 +198,7 @@
      transform="translate(-120,87.999997)">
     <g
        transform="translate(-886,-448)"
-       style="display:inline;opacity:1;filter:url(#filter3364)"
+       style="display:inline;opacity:1;filter:url(#filter4164)"
        id="switch-active-dark"
        inkscape:label="#g4829">
       <g

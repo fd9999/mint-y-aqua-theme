@@ -41,18 +41,50 @@
     </linearGradient>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Color Shift"
+       inkscape:label="Colorize"
        id="filter3348">
+      <feComposite
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="0"
+         k2="1"
+         result="composite1"
+         id="feComposite3350" />
       <feColorMatrix
-         type="hueRotate"
-         values="40"
-         result="color1"
-         id="feColorMatrix3350" />
-      <feColorMatrix
-         type="saturate"
+         in="composite1"
          values="1"
-         result="color2"
+         type="saturate"
+         result="colormatrix1"
          id="feColorMatrix3352" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(1,103,255)"
+         result="flood1"
+         id="feFlood3354" />
+      <feBlend
+         in="flood1"
+         in2="colormatrix1"
+         mode="screen"
+         result="blend1"
+         id="feBlend3356" />
+      <feBlend
+         in2="blend1"
+         mode="darken"
+         result="blend2"
+         id="feBlend3358" />
+      <feColorMatrix
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2"
+         id="feColorMatrix3360" />
+      <feComposite
+         in="colormatrix2"
+         in2="SourceGraphic"
+         operator="in"
+         k2="1"
+         result="composite2"
+         id="feComposite3362" />
     </filter>
   </defs>
   <sodipodi:namedview
