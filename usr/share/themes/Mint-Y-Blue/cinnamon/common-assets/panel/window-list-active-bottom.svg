@@ -15,7 +15,7 @@
    height="4"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="window-list-active-bottom.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -30,17 +30,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="19.769528"
-     inkscape:cx="12.291705"
+     inkscape:cx="4.8307277"
      inkscape:cy="3.0971298"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="true"
-     inkscape:window-width="1142"
-     inkscape:window-height="566"
-     inkscape:window-x="778"
-     inkscape:window-y="82"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -50,7 +50,7 @@
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="false"
      inkscape:snap-bbox-edge-midpoints="false"
@@ -74,55 +74,7 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3">
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Colorize"
-       id="filter3335">
-      <feComposite
-         in2="SourceGraphic"
-         operator="arithmetic"
-         k1="0"
-         k2="1"
-         result="composite1"
-         id="feComposite3337" />
-      <feColorMatrix
-         in="composite1"
-         values="1"
-         type="saturate"
-         result="colormatrix1"
-         id="feColorMatrix3339" />
-      <feFlood
-         flood-opacity="1"
-         flood-color="rgb(1,103,255)"
-         result="flood1"
-         id="feFlood3341" />
-      <feBlend
-         in="flood1"
-         in2="colormatrix1"
-         mode="screen"
-         result="blend1"
-         id="feBlend3343" />
-      <feBlend
-         in2="blend1"
-         mode="darken"
-         result="blend2"
-         id="feBlend3345" />
-      <feColorMatrix
-         in="blend2"
-         values="1"
-         type="saturate"
-         result="colormatrix2"
-         id="feColorMatrix3347" />
-      <feComposite
-         in="colormatrix2"
-         in2="SourceGraphic"
-         operator="in"
-         k2="1"
-         result="composite2"
-         id="feComposite3349" />
-    </filter>
-  </defs>
+     id="defs3" />
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -180,7 +132,7 @@
      id="layer1"
      transform="translate(0,-296)">
     <rect
-       style="opacity:1;fill:#8fa876;fill-opacity:1;stroke:none;filter:url(#filter3335)"
+       style="opacity:1;fill:#00a8ff;fill-opacity:1;stroke:none"
        id="rect4270-9"
        width="24"
        height="2"
