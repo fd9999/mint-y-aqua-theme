@@ -14,58 +14,10 @@
    viewBox="0 0 32 32.000001"
    id="svg6621"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="message.svg">
   <defs
-     id="defs6623">
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Colorize"
-       id="filter3384">
-      <feComposite
-         in2="SourceGraphic"
-         operator="arithmetic"
-         k1="0"
-         k2="1"
-         result="composite1"
-         id="feComposite3386" />
-      <feColorMatrix
-         in="composite1"
-         values="1"
-         type="saturate"
-         result="colormatrix1"
-         id="feColorMatrix3388" />
-      <feFlood
-         flood-opacity="1"
-         flood-color="rgb(1,103,255)"
-         result="flood1"
-         id="feFlood3390" />
-      <feBlend
-         in="flood1"
-         in2="colormatrix1"
-         mode="screen"
-         result="blend1"
-         id="feBlend3392" />
-      <feBlend
-         in2="blend1"
-         mode="darken"
-         result="blend2"
-         id="feBlend3394" />
-      <feColorMatrix
-         in="blend2"
-         values="1"
-         type="saturate"
-         result="colormatrix2"
-         id="feColorMatrix3396" />
-      <feComposite
-         in="colormatrix2"
-         in2="SourceGraphic"
-         operator="in"
-         k2="1"
-         result="composite2"
-         id="feComposite3398" />
-    </filter>
-  </defs>
+     id="defs6623" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -74,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="16"
-     inkscape:cx="-0.22524404"
+     inkscape:cx="-9.568994"
      inkscape:cy="8.0127661"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -85,9 +37,9 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1028"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -120,7 +72,7 @@
        rx="1.5"
        ry="1.5" />
     <path
-       style="display:inline;opacity:1;fill:#9ab87c;fill-opacity:1;stroke:#88a66a;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3384)"
+       style="display:inline;opacity:1;fill:#00b8ff;fill-opacity:1;stroke:#00a6ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 2.75,1020.8622 0.75,0 0,31 -0.75,0 c -1.2465,0 -2.25,-0.6805 -2.25,-1.5259 l 0,-27.9482 c 0,-0.8454 1.0035,-1.5259 2.25,-1.5259 z"
        id="rect4162-5"
        inkscape:connector-curvature="0"

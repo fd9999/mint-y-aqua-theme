@@ -13,7 +13,7 @@
    height="20"
    id="svg7539"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="switch-on.svg">
   <defs
      id="defs7541">
@@ -91,53 +91,6 @@
          offset="1"
          style="stop-color:#ffffff;stop-opacity:1;" />
     </linearGradient>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Colorize"
-       id="filter4164">
-      <feComposite
-         in2="SourceGraphic"
-         operator="arithmetic"
-         k1="0"
-         k2="1"
-         result="composite1"
-         id="feComposite4166" />
-      <feColorMatrix
-         in="composite1"
-         values="0"
-         type="saturate"
-         result="colormatrix1"
-         id="feColorMatrix4168" />
-      <feFlood
-         flood-opacity="1"
-         flood-color="rgb(65,141,255)"
-         result="flood1"
-         id="feFlood4170" />
-      <feBlend
-         in="flood1"
-         in2="colormatrix1"
-         mode="multiply"
-         result="blend1"
-         id="feBlend4172" />
-      <feBlend
-         in2="blend1"
-         mode="screen"
-         result="blend2"
-         id="feBlend4174" />
-      <feColorMatrix
-         in="blend2"
-         values="1"
-         type="saturate"
-         result="colormatrix2"
-         id="feColorMatrix4176" />
-      <feComposite
-         in="colormatrix2"
-         in2="SourceGraphic"
-         operator="in"
-         k2="1"
-         result="composite2"
-         id="feComposite4178" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -147,8 +100,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.666667"
-     inkscape:cx="-12.983489"
-     inkscape:cy="15.787152"
+     inkscape:cx="0.60222522"
+     inkscape:cy="16.13001"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -158,9 +111,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1028"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      showguides="true"
@@ -187,7 +140,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -198,7 +151,7 @@
      transform="translate(-120,87.999997)">
     <g
        transform="translate(-886,-448)"
-       style="display:inline;opacity:1;filter:url(#filter4164)"
+       style="display:inline;opacity:1"
        id="switch-active-dark"
        inkscape:label="#g4829">
       <g
@@ -222,7 +175,7 @@
                x="0"
                y="1029.3622" />
             <rect
-               style="fill:#8fa876;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="fill:#00a8ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
                id="rect2987-0-8-7"
                width="50"
                height="20"

@@ -13,7 +13,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="checkbox-unchecked-focused.svg"
    inkscape:export-filename="/home/steffen/.local/share/themes/neu2/gtk-3.0/assets/dark/checkbox-unchecked.png"
    inkscape:export-xdpi="90"
@@ -39,53 +39,6 @@
          offset="1"
          id="stop3776-1" />
     </linearGradient>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Colorize"
-       id="filter3348">
-      <feComposite
-         in2="SourceGraphic"
-         operator="arithmetic"
-         k1="0"
-         k2="1"
-         result="composite1"
-         id="feComposite3350" />
-      <feColorMatrix
-         in="composite1"
-         values="1"
-         type="saturate"
-         result="colormatrix1"
-         id="feColorMatrix3352" />
-      <feFlood
-         flood-opacity="1"
-         flood-color="rgb(1,103,255)"
-         result="flood1"
-         id="feFlood3354" />
-      <feBlend
-         in="flood1"
-         in2="colormatrix1"
-         mode="screen"
-         result="blend1"
-         id="feBlend3356" />
-      <feBlend
-         in2="blend1"
-         mode="darken"
-         result="blend2"
-         id="feBlend3358" />
-      <feColorMatrix
-         in="blend2"
-         values="1"
-         type="saturate"
-         result="colormatrix2"
-         id="feColorMatrix3360" />
-      <feComposite
-         in="colormatrix2"
-         in2="SourceGraphic"
-         operator="in"
-         k2="1"
-         result="composite2"
-         id="feComposite3362" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -95,7 +48,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.313709"
-     inkscape:cx="-7.6647208"
+     inkscape:cx="-20.702002"
      inkscape:cy="-1.1201818"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -140,7 +93,7 @@
      transform="translate(0,-1036.3622)">
     <g
        transform="translate(-17,1036)"
-       style="display:inline;opacity:1;filter:url(#filter3348)"
+       style="display:inline;opacity:1"
        id="checkbox-unchecked-9"
        inkscape:label="#g22047">
       <g
@@ -173,7 +126,7 @@
              id="g5400-2">
             <rect
                ry="2"
-               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#9ab87c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#00b8ff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                id="rect5147-9-1-5-7-6-3"
                width="13"
                height="12.999997"

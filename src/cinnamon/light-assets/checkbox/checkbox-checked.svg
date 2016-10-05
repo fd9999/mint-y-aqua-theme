@@ -13,7 +13,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="checkbox-checked.svg"
    inkscape:export-filename="/home/steffen/.local/share/themes/Vertex-git/gtk-3.0/assets/dark/checkbox-checked.png"
    inkscape:export-xdpi="90"
@@ -61,53 +61,6 @@
          offset="1"
          id="stop3973-0-5-3" />
     </linearGradient>
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Colorize"
-       id="filter3364">
-      <feComposite
-         in2="SourceGraphic"
-         operator="arithmetic"
-         k1="0"
-         k2="1"
-         result="composite1"
-         id="feComposite3366" />
-      <feColorMatrix
-         in="composite1"
-         values="1"
-         type="saturate"
-         result="colormatrix1"
-         id="feColorMatrix3368" />
-      <feFlood
-         flood-opacity="1"
-         flood-color="rgb(1,103,255)"
-         result="flood1"
-         id="feFlood3370" />
-      <feBlend
-         in="flood1"
-         in2="colormatrix1"
-         mode="screen"
-         result="blend1"
-         id="feBlend3372" />
-      <feBlend
-         in2="blend1"
-         mode="darken"
-         result="blend2"
-         id="feBlend3374" />
-      <feColorMatrix
-         in="blend2"
-         values="1"
-         type="saturate"
-         result="colormatrix2"
-         id="feColorMatrix3376" />
-      <feComposite
-         in="colormatrix2"
-         in2="SourceGraphic"
-         operator="in"
-         k2="1"
-         result="composite2"
-         id="feComposite3378" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -117,7 +70,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="16.000001"
-     inkscape:cx="8.5280933"
+     inkscape:cx="-0.69065612"
      inkscape:cy="10.041908"
      inkscape:document-units="px"
      inkscape:current-layer="checkbox-checked-dark"
@@ -127,11 +80,11 @@
      inkscape:guide-bbox="true"
      inkscape:showpageshadow="false"
      showborder="true"
-     inkscape:window-width="929"
-     inkscape:window-height="614"
-     inkscape:window-x="991"
-     inkscape:window-y="220"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -167,7 +120,7 @@
        transform="translate(16.837126,14.010408)">
       <g
          transform="translate(-52.837126,1021.9896)"
-         style="display:inline;opacity:1;filter:url(#filter3364)"
+         style="display:inline;opacity:1"
          id="checkbox-checked"
          inkscape:label="#g10758">
         <g
@@ -210,7 +163,7 @@
                    height="13.99999"
                    width="13.999989"
                    id="rect5147-9-1-5-7-6-7"
-                   style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#9ab87c;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+                   style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00b8ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
                    ry="1.9999917" />
               </g>
             </g>
