@@ -2,9 +2,9 @@
 
 import os
 
-VARIATIONS = ["Mint-Y-Blue",
-              "Mint-Y-Blue-Darker",
-              "Mint-Y-Blue-Dark"]
+VARIATIONS = ["Mint-Y-Aqua",
+              "Mint-Y-Darker-Aqua",
+              "Mint-Y-Dark-Aqua"]
 
 DEST = '../usr/share/themes'
 
@@ -37,8 +37,8 @@ if __name__ == '__main__':
     print("Building themes")
     for variation in VARIATIONS:
         dest_folder = os.path.join(DEST, variation)
-        if variation == "Mint-Y-Blue":
-            print("    Building Mint-Y-Blue")
+        if variation == "Mint-Y-Aqua":
+            print("    Building Mint-Y-Aqua")
             os.system("cp index.theme %s" % dest_folder)
             # Gtk2
             version_folder = os.path.join(dest_folder, "gtk-2.0")
@@ -65,8 +65,8 @@ if __name__ == '__main__':
             # XFWM
             os.system("cp -R xfwm4 %s" % dest_folder)
 
-        elif variation == "Mint-Y-Blue-Darker":
-            print("    Building Mint-Y-Blue-Darker")
+        elif variation == "Mint-Y-Darker-Aqua":
+            print("    Building Mint-Y-Darker-Aqua")
             os.system("cp index.theme-darker %s" % os.path.join(dest_folder, "index.theme"))
             # Gtk2
             version_folder = os.path.join(dest_folder, "gtk-2.0")
@@ -87,8 +87,8 @@ if __name__ == '__main__':
             os.system("cp -R xfwm4-dark %s" % dest_folder)
             os.system("mv %s %s" % (os.path.join(dest_folder, "xfwm4-dark"), os.path.join(dest_folder, "xfwm4")))
 
-        elif variation == "Mint-Y-Blue-Dark":
-            print("    Building Mint-Y-Blue-Dark")
+        elif variation == "Mint-Y-Dark-Aqua":
+            print("    Building Mint-Y-Dark-Aqua")
             os.system("cp index.theme-dark %s" % os.path.join(dest_folder, "index.theme"))
             # Gtk2
             version_folder = os.path.join(dest_folder, "gtk-2.0")
